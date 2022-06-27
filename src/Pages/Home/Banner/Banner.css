@@ -1,0 +1,13 @@
+.bg-color{
+    background-color:#003145;
+    color: #ECECEC;
+}
+.side-bar{
+    height: 116px;
+    width: 10px;
+    background-color: #FFCE5C;
+}
+.header-text{
+    color: white;
+    font-size: 48px;
+}
