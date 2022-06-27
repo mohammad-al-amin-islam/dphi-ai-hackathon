@@ -4,16 +4,16 @@ import rocket from '../../../Images/PicsArt_04-14-04.42 1.svg'
 const Banner = () => {
     return (
         <div className='bg-color'>
-            <div className='container'>
+            <div className='container' style={{padding:'140px 0 80px 0'}}>
                 <div className="row">
                     <div className="col-lg-8">
-                        <div className='d-flex p-5 '>
+                        <div className='d-flex '>
                             <div className='side-bar me-5'>
 
                             </div>
                             <div>
-                                <h1 className='header-text'>Accelerate Innovation with Global AI Challenges</h1>
-                                <p>
+                                <h1 className='header-text mb-5'>Accelerate Innovation with Global AI Challenges</h1>
+                                <p className='mb-5'>
                                 AI Challenges at DPhi simulate real-world problems. It is a great place to put your AI/Data Science skills to test on diverse datasets allowing you to foster learning through competitions.
                                 </p>
                                 <button className='btn btn-primary'>create challenge</button>
