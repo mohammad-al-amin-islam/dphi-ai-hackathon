@@ -1,6 +1,6 @@
 import React from 'react';
 import './Banner.css'
-// import rocket from '../../../Images/PicsArt_04-14-04.42 1.svg'
+import rocket from '../../../Images/PicsArt_04-14-04.42 1.svg'
 const Banner = () => {
     return (
         <div className='bg-color'>
@@ -21,7 +21,7 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className="col-lg-4 text-center">
-                        {/* <img src={rocket} alt="" /> */}
+                        <img src={rocket} alt="" />
                     </div>
                 </div>
             </div>
