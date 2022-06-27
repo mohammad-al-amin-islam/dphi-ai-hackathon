@@ -46,7 +46,6 @@ const BusinessSummary = () => {
                                 <p>AI Challenges hosted</p>
                             </div>
                         </div>
-
                     </div>
 
                 </div>
