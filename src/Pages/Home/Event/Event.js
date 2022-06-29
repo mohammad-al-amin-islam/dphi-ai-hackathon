@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import img1 from '../../../Images/cardimage/Group 1000002466.png';
 import img2 from '../../../Images/cardimage/Group 1000002766.png';
 import img3 from '../../../Images/cardimage/Group 1000002767.png';
@@ -43,7 +44,7 @@ const Event = () => {
                                         <p className='fs-6'>Min</p>
                                     </div>
                                 </div>
-                                <button className='s-button'>Participate Now</button>
+                                <Link className='s-button' to='/event-participate'>Participate Now</Link>
                             </div>
                         </div>
                     </div>
@@ -76,7 +77,7 @@ const Event = () => {
                                         <p className='fs-6'>Min</p>
                                     </div>
                                 </div>
-                                <button className='s-button'>Participate Now</button>
+                                <Link className='s-button' to='/event-participate'>Participate Now</Link>
                             </div>
                         </div>
                     </div>
@@ -110,7 +111,7 @@ const Event = () => {
                                         <p className='fs-6'>Min</p>
                                     </div>
                                 </div>
-                                <button className='s-button'>Participate Now</button>
+                                <Link className='s-button' to='/event-participate'>Participate Now</Link>
                             </div>
                         </div>
                     </div>
@@ -143,7 +144,7 @@ const Event = () => {
                                         <p className='fs-6'>Min</p>
                                     </div>
                                 </div>
-                                <button className='s-button'>Participate Now</button>
+                                <Link className='s-button' to='/event-participate'>Participate Now</Link>
                             </div>
                         </div>
                     </div>
@@ -159,7 +160,7 @@ const Event = () => {
                                 <div className='d-flex justify-content-center'>
                                    <h5 className='mb-5'>16th May'22 09:00 PM</h5>
                                 </div>
-                                <button className='s-button'>Participate Now</button>
+                                <Link className='s-button' to='/event-participate'>Participate Now</Link>
                             </div>
                         </div>
                     </div>
@@ -178,7 +179,7 @@ const Event = () => {
                                 <div className='d-flex justify-content-center'>
                                    <h5 className='mb-5'>16th May'22 09:00 PM</h5>
                                 </div>
-                                <button className='s-button'>Participate Now</button>
+                                <Link className='s-button' to='/event-participate'>Participate Now</Link>
                             </div>
                         </div>
                     </div>

@@ -1,0 +1,34 @@
+.p-button {
+    width: 464px;
+    height: 34px;
+
+    background-color: #FFCE5C;
+    border-radius: 5px;
+}
+
+.design {
+    background-color: #44924C;
+    width: 145px;
+    height: 4px;
+    border-radius: 20px;
+}
+
+.style-b {
+    width: 91px;
+    height: 37px;
+
+    background: #44924C;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.style-b2 {
+    width: 90px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 0.3px solid #DDE6ED;
+    box-shadow: 0px 6px 12px #DDE6ED;
+    color: #DC1414;
+    border-radius: 15px;
+}
