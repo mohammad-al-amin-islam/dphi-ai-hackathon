@@ -1,6 +1,7 @@
 import React from 'react';
 import './EventParticipate.css'
 import { Link } from "react-router-dom";
+import { ChartBarIcon } from '@heroicons/react/solid';
 
 const EventParticipate = () => {
     return (
@@ -10,7 +11,7 @@ const EventParticipate = () => {
                     <button className='p-button mb-3'>Starts on 17th Jun'22 09:00 PM (India Standard Time)</button>
                     <h1 className='text-white mb-5'>Data Sprint 72 - Butterfly Identification</h1>
                     <p className='text-white'>Identify the class to which each butterfly belongs to</p>
-                    <button className='c-button'>Easy</button>
+                    <button className='c-button'><ChartBarIcon className='me-2' style={{ width: '20px', height: '20px' }}></ChartBarIcon> Easy</button>
                 </div>
             </div>
             <div className='shadow'>

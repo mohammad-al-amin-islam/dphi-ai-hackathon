@@ -1,3 +1,4 @@
+import { ArrowRightIcon, PhotographIcon } from '@heroicons/react/solid';
 import React from 'react';
 import { Link } from "react-router-dom";
 import img1 from '../../Images/cardimage/Group 1000002466.png'
@@ -30,7 +31,7 @@ const EditChallenges = () => {
                     <label for="exampleFormControlInput1" class="form-label fw-bold fs-5 mb-4">Image</label>
                     <div className='bg-light p-5 imgs'>
                         <img style={{borderRadius:'20px'}} className='img-fluid' src={img1} alt="" />
-                        <p className='text-danger pt-3'>Change Images</p>
+                        <p className='text-danger pt-3'> <PhotographIcon className='me-2' style={{ width: '20px', height: '20px' }}></PhotographIcon> Change Images <ArrowRightIcon className='ms-2' style={{ width: '20px', height: '20px' }}></ArrowRightIcon></p>
                     </div>
 
                 </div>

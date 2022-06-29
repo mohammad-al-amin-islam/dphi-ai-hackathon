@@ -7,7 +7,7 @@ import img4 from '../../../Images/cardimage/Group 1000002771.png';
 import img5 from '../../../Images/cardimage/Group 1000002772.png';
 import img6 from '../../../Images/cardimage/Group 1000002773.png';
 import './Event.css'
-
+import { CheckCircleIcon } from '@heroicons/react/solid'
 
 const Event = () => {
     return (
@@ -16,7 +16,7 @@ const Event = () => {
                 <div class="row row-cols-1 row-cols-md-3 g-4">
 
                     <div class="col">
-                        <div style={{borderRadius:'15px'}} class="card h-100 border-0">
+                        <div style={{ borderRadius: '15px' }} class="card h-100 border-0">
                             <img src={img4} class="card-img-top" alt="..." />
                             <div class="card-body text-center">
                                 <div className='d-flex justify-content-center rounded'>
@@ -44,12 +44,14 @@ const Event = () => {
                                         <p className='fs-6'>Min</p>
                                     </div>
                                 </div>
-                                <Link className='s-button' to='/event-participate'>Participate Now</Link>
+                                <Link className='s-button' to='/event-participate'>
+                                    <CheckCircleIcon className='me-2' style={{ width: '20px', height: '20px' }} />
+                                    Participate Now</Link>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div style={{borderRadius:'15px'}} class="card h-100 border-0">
+                        <div style={{ borderRadius: '15px' }} class="card h-100 border-0">
                             <img src={img2} class="card-img-top" alt="..." />
                             <div class="card-body text-center">
                                 <div className='d-flex justify-content-center rounded'>
@@ -77,13 +79,15 @@ const Event = () => {
                                         <p className='fs-6'>Min</p>
                                     </div>
                                 </div>
-                                <Link className='s-button' to='/event-participate'>Participate Now</Link>
+                                <Link className='s-button' to='/event-participate'>
+                                    <CheckCircleIcon className='me-2' style={{ width: '20px', height: '20px' }} />
+                                    Participate Now</Link>
                             </div>
                         </div>
                     </div>
 
                     <div class="col">
-                        <div style={{borderRadius:'15px'}} class="card h-100 border-0">
+                        <div style={{ borderRadius: '15px' }} class="card h-100 border-0">
                             <img src={img3} class="card-img-top" alt="..." />
                             <div class="card-body text-center">
                                 <div className='d-flex justify-content-center rounded'>
@@ -111,12 +115,14 @@ const Event = () => {
                                         <p className='fs-6'>Min</p>
                                     </div>
                                 </div>
-                                <Link className='s-button' to='/event-participate'>Participate Now</Link>
+                                <Link className='s-button' to='/event-participate'>
+                                    <CheckCircleIcon className='me-2' style={{ width: '20px', height: '20px' }} />
+                                    Participate Now</Link>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div style={{borderRadius:'15px'}} class="card h-100 border-0">
+                        <div style={{ borderRadius: '15px' }} class="card h-100 border-0">
                             <img src={img5} class="card-img-top" alt="..." />
                             <div class="card-body text-center">
                                 <div className='d-flex justify-content-center rounded'>
@@ -144,12 +150,14 @@ const Event = () => {
                                         <p className='fs-6'>Min</p>
                                     </div>
                                 </div>
-                                <Link className='s-button' to='/event-participate'>Participate Now</Link>
+                                <Link className='s-button' to='/event-participate'>
+                                    <CheckCircleIcon className='me-2' style={{ width: '20px', height: '20px' }} />
+                                    Participate Now</Link>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div style={{borderRadius:'15px'}} class="card h-100 border-0">
+                        <div style={{ borderRadius: '15px' }} class="card h-100 border-0">
                             <img src={img6} class="card-img-top" alt="..." />
                             <div class="card-body text-center">
                                 <div className='d-flex justify-content-center rounded'>
@@ -158,9 +166,11 @@ const Event = () => {
                                 <h5 class="card-title">Engineering Graduates Employment Outcomes</h5>
                                 <p class="card-text">Ended On</p>
                                 <div className='d-flex justify-content-center'>
-                                   <h5 className='mb-5'>16th May'22 09:00 PM</h5>
+                                    <h5 className='mb-5'>16th May'22 09:00 PM</h5>
                                 </div>
-                                <Link className='s-button' to='/event-participate'>Participate Now</Link>
+                                <Link className='s-button' to='/event-participate'>
+                                    <CheckCircleIcon className='me-2' style={{ width: '20px', height: '20px' }} />
+                                    Participate Now</Link>
                             </div>
                         </div>
                     </div>
@@ -168,7 +178,7 @@ const Event = () => {
 
 
                     <div class="col">
-                        <div style={{borderRadius:'15px'}} class="card h-100 border-0">
+                        <div style={{ borderRadius: '15px' }} class="card h-100 border-0">
                             <img src={img1} class="card-img-top" alt="..." />
                             <div class="card-body text-center">
                                 <div className='d-flex justify-content-center rounded'>
@@ -177,9 +187,11 @@ const Event = () => {
                                 <h5 class="card-title">Travel Insurance Claim <br /> Prediction</h5>
                                 <p class="card-text">Ended On</p>
                                 <div className='d-flex justify-content-center'>
-                                   <h5 className='mb-5'>16th May'22 09:00 PM</h5>
+                                    <h5 className='mb-5'>16th May'22 09:00 PM</h5>
                                 </div>
-                                <Link className='s-button' to='/event-participate'>Participate Now</Link>
+                                <Link className='s-button' to='/event-participate'>
+                                    <CheckCircleIcon className='me-2' style={{ width: '20px', height: '20px' }} />
+                                    Participate Now</Link>
                             </div>
                         </div>
                     </div>
