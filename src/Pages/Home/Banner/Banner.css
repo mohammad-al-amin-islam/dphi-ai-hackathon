@@ -1,13 +1,26 @@
-.bg-color{
-    background-color:#003145;
+.bg-color {
+    background-color: #003145;
     color: #ECECEC;
 }
-.side-bar{
+
+.side-bar {
     height: 116px;
     width: 10px;
     background-color: #FFCE5C;
 }
-.header-text{
+
+.header-text {
     color: white;
     font-size: 48px;
+}
+
+.c-button a {
+    width: 198px;
+    height: 47px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    padding: 15px;
 }

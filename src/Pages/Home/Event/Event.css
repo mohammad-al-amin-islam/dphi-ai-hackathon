@@ -1,0 +1,40 @@
+.status {
+    background-color: rgba(242, 201, 76, 0.25);
+    padding: 0 5px;
+    border-radius: 5px;
+    color: red;
+    font-weight: bold;
+}
+
+.status2 {
+    width: 87px;
+    height: 21px;
+
+    background-color: rgba(68, 146, 76, 0.24);
+    border-radius: 5px;
+    color: red;
+    font-weight: bold;
+}
+
+.status3 {
+    width: 87px;
+    height: 21px;
+    background: rgba(255, 60, 0, 0.170148);
+    border-radius: 5px;
+    color: red;
+    font-weight: bold;
+}
+
+.s-button {
+    width: 182.55px;
+    height: 42px;
+    background-color: #44924C;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+.card {
+    box-shadow: 0px 4px 43px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+}

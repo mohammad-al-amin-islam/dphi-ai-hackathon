@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from '../Banner/Banner';
 import BusinessSummary from '../BusinessSummary/BusinessSummary';
 import Challenges from '../Challenges/Challenges';
+import Event from '../Event/Event';
 import FaqArea from '../FaqArea/FaqArea';
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <BusinessSummary></BusinessSummary>
             <FaqArea></FaqArea>
             <Challenges></Challenges>
+            <Event></Event>
         </div>
     );
 };
