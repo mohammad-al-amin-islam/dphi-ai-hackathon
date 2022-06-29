@@ -4,6 +4,7 @@
     border-radius: 5px;
     color: red;
     font-weight: bold;
+    
 }
 
 .status2 {
@@ -32,9 +33,4 @@
     border-radius: 10px;
     color: white;
     border: none;
-}
-
-.card {
-    box-shadow: 0px 4px 43px rgba(0, 0, 0, 0.08);
-    border-radius: 15px;
 }
