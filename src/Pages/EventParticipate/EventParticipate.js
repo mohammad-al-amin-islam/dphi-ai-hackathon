@@ -1,5 +1,6 @@
 import React from 'react';
 import './EventParticipate.css'
+import { Link } from "react-router-dom";
 
 const EventParticipate = () => {
     return (
@@ -19,7 +20,8 @@ const EventParticipate = () => {
                         <div className='design'></div>
                     </div>
                     <div className='py-4'>
-                        <button className='me-3 style-b'>Edit</button>
+                        
+                        <Link to='/edit-participate' className='me-3 style-b'>Edit</Link>
                         <button className='style-b2'>Delete</button>
                     </div>
                 </div>

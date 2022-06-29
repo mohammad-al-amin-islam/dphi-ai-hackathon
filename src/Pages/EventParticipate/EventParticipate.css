@@ -21,6 +21,8 @@
     border-radius: 10px;
     border: none;
     color: white;
+    text-decoration: none;
+    padding: 7px 20px;
 }
 
 .style-b2 {
